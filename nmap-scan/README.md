@@ -1,4 +1,4 @@
-﻿# SIH - Nmap Scan Results (sanitized)
+﻿# Nmap Scan Results (sanitized)
 
 Files:
 - myscan_laptop_sanitized.nmap — human readable Nmap output (IPs, MACs redacted)
@@ -17,3 +17,4 @@ map -sS -sV -p- <your-ip> -oA myscan_laptop
 
 Notes:
 These copies were sanitized to remove personally identifying network information.
+
