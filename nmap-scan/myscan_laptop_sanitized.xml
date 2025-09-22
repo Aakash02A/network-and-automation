@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///B:/TOOLS/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Mon Sep 22 20:50:21 2025 as: nmap -sS -sV -p - -T4 -oA myscan_laptop <REDACTED_IP> -->
+<nmaprun scanner="nmap" args="nmap -sS -sV -p - -T4 -oA myscan_laptop <REDACTED_IP>" start="1758554421" startstr="Mon Sep 22 20:50:21 2025" version="7.98" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1758554426" endtime="1758554523"><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="<REDACTED_IP>" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65514">
+<extrareasons reason="reset" count="65514" proto="tcp" ports="1-134,136,138,140-444,446-5039,5041-27035,27037-49663,49678,49680-65535"/>
+</extraports>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="137"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5040"><state state="open" reason="syn-ack" reason_ttl="128"/></port>
+<port protocol="tcp" portid="27036"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="steam" product="Valve Steam In-Home Streaming service" extrainfo="TLSv1.2 PSK" tunnel="ssl" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="49664"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49665"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49666"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49667"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49668"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49669"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49669-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x01\0\x03\x01\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49670"><state state="open" reason="syn-ack" reason_ttl="128"/></port>
+<port protocol="tcp" portid="49671"><state state="open" reason="syn-ack" reason_ttl="128"/></port>
+<port protocol="tcp" portid="49672"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="49673"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49673-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(GenericLines,40,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(Help,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49674"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49674-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(GenericLines,40,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(Help,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49675"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49675-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(GenericLines,40,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(Help,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49676"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49676-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(GenericLines,40,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(Help,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49677"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49677-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(GenericLines,40,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(Help,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49679"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="unknown" servicefp="SF-Port49679-TCP:V=7.98%I=7%D=9/22%Time=68D16946%P=i686-pc-windows-windows%r(NULL,20,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;)%r(GenericLines,40,&quot;\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0\x8e&apos;\xe5\xac\x05\0\x07\0\t\0\r\xc8\r\0\x0f\0\x11\0\x13\0\x15\0\x17\0\x19\0\x1b\0\x1d\0\x1f\0&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="846" rttvar="280" to="100000"/>
+</host>
+<runstats><finished time="1758554523" timestr="Mon Sep 22 20:52:03 2025" summary="Nmap done at Mon Sep 22 20:52:03 2025; 1 IP address (1 host up) scanned in 101.71 seconds" elapsed="101.71" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
+

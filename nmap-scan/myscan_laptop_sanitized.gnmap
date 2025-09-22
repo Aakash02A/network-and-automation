@@ -1,0 +1,5 @@
+﻿# Nmap 7.98 scan initiated Mon Sep 22 20:50:21 2025 as: nmap -sS -sV -p - -T4 -oA myscan_laptop <REDACTED_IP>
+Host: <REDACTED_IP> ()	Status: Up
+Host: <REDACTED_IP> ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 137/filtered/tcp//netbios-ns///, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5040/open/tcp/////, 27036/open/tcp//ssl|steam//Valve Steam In-Home Streaming service (TLSv1.2 PSK)/, 49664/open/tcp//msrpc//Microsoft Windows RPC/, 49665/open/tcp//msrpc//Microsoft Windows RPC/, 49666/open/tcp//msrpc//Microsoft Windows RPC/, 49667/open/tcp//msrpc//Microsoft Windows RPC/, 49668/open/tcp//msrpc//Microsoft Windows RPC/, 49669/open/tcp//unknown///, 49670/open/tcp/////, 49671/open/tcp/////, 49672/open/tcp//msrpc//Microsoft Windows RPC/, 49673/open/tcp//unknown///, 49674/open/tcp//unknown///, 49675/open/tcp//unknown///, 49676/open/tcp//unknown///, 49677/open/tcp//unknown///, 49679/open/tcp//unknown///	Ignored State: closed (65514)
+# Nmap done at Mon Sep 22 20:52:03 2025 -- 1 IP address (1 host up) scanned in 101.71 seconds
+
