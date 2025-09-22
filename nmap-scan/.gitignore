@@ -1,0 +1,11 @@
+$gitignore = @"
+# ignore raw Nmap outputs
+myscan_laptop.nmap
+myscan_laptop.gnmap
+myscan_laptop.xml
+# ignore SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+"@
+$gitignore | Set-Content -Path .\.gitignore -Encoding UTF8
